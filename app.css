@@ -6,13 +6,13 @@ body {
   }
   
   .blurb h2 {
-	color: #ea1c2c;
+	color: black;
 	font-weight: 100;
 	font-size: 2rem;
   }
   
   .blurb p {
-	color: #f498b8;
+	color: black;
 	font-weight: 100;
 	font-size: 1.125rem;
 	line-height: 2;
@@ -29,25 +29,26 @@ body {
   }
   
   #mainNavbar .nav-link {
-	color: white;
+	color: black;
   }
   
   #mainNavbar .nav-link:hover {
-	color: #ea1c2c;
+	color: white;
   }
   
   #mainNavbar .navbar-brand {
-	color: #ea1c2c;
+	color: white;
 	font-size: 1.5rem;
   }
   
   #headingGroup span {
-	color: #ea1c2c;
+	color: white;
   } 
   
   #headingGroup h1 {
 	font-weight: 100;
 	font-size: 4rem;
+	color: black;
   } 
   
   input[type=text], select, textarea {
@@ -99,7 +100,10 @@ body {
   
   
   }
-  
+  .navbar-toggler-icon{
+	border-color: black;
+  }
+ 
   
   
   
@@ -108,5 +112,10 @@ body {
 	#headingGroup h1 {
 	font-weight: 100;
 	font-size: 3rem;
+	color: black;
 	} 
+	.navbar-toggler-icon{
+		border-color: black;
+	}
+	
   }
